@@ -1,0 +1,18 @@
+.hero{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.blue{
+    color: blue;
+}
+
+#dialogue{
+    padding-top: 25vh;
+    color: #fff;
+    justify-content: space-around;
+    font-weight: 900;
+}
