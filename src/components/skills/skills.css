@@ -1,0 +1,88 @@
+.skills{
+    padding-top: 10vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1{
+    color: #fff;
+    font-size: 15vh;
+}
+
+.all-six{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.first-three{
+    /* background-color: grey; */
+    height: 50%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second-three{
+    /* background-color: grey; */
+    height: 50%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skill-one{
+    height: 10%;
+    width: 95%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.skill-two{
+    height: 10%;
+    width: 95%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+}
+.skill-three{
+    height: 10%;
+    width: 95%;
+    /* background-color: magenta; */
+    display: flex;
+    flex-direction: column;
+}
+
+.skillname{
+    text-align: left;
+    color: #fff;
+}
+.progress-bar{
+    width: 50%;
+    height: 80%;
+    background-color: red;
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid black;
+}
+
+.skill-level{
+    text-align: right;
+    font-weight: 900;
+    color: #fff;
+}
+
+.hrule-skills{
+    width: 40vw;
+}

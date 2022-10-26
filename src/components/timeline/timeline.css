@@ -1,0 +1,55 @@
+.timeline{
+    background-color: black;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.title {
+    padding-left: 10vw;
+    font-size: 15vh;
+    color: #fff;
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+  }
+.hrule-tl{
+    width: 45vw;
+    margin-left: 10vw;
+}
+
+h3 {
+    padding-top: 0.25em;
+}
+  
+  
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+  .mobile-tl{
+    display: none;
+  }
+  
+  @media screen and (max-width:769px){
+    .title {
+        padding-top: 5vh;
+        padding-left: 10vw;
+        font-size: 5vh;
+        color: #fff;
+        text-align: left;
+        font-family: "Bebas Neue", sans-serif;
+      }
+      .hrule-tl{
+        width: 60vw;
+        margin-left: 10vw;
+    }
+    .mobile-tl{
+        display: block;
+        padding-top: 8vh;
+    }
+    .box{
+        height: auto;
+        width: 40vh;
+    }
+  }
