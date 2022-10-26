@@ -71,7 +71,7 @@
 }
 .progress-bar{
     width: 50%;
-    height: 80%;
+    height: 95%;
     background-color: red;
     border-radius: 8px 8px 8px 8px;
     border: 2px solid black;
@@ -85,4 +85,32 @@
 
 .hrule-skills{
     width: 40vw;
+}
+
+@media screen and (max-width:769px){
+    .all-six{
+        height: 90vh;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        align-items: center;
+    }
+    .skills {
+        padding-top: 2vh;
+        padding-bottom: 10vh;
+        height: 100vh;
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills h1{
+        color: #fff;
+        font-size: 10vh;
+    }
+    .hrule-skills{
+        width: 70vw;
+    }
 }

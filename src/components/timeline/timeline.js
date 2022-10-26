@@ -14,7 +14,7 @@ function Timeline() {
 
   return (
     <div className="timeline">
-      <h1 className="title">Timeline</h1>
+      <h1 className="title">Education</h1>
       <hr className="hrule-tl"/>
       <div className="mobile-tl"></div>
       <VerticalTimeline >
