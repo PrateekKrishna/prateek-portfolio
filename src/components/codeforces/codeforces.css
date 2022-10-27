@@ -89,3 +89,8 @@
     color: #fff;
     align-self: center;
 }
+
+.hrule-cf{
+    align-self: center;
+    width: 45vw;
+}

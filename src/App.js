@@ -1,6 +1,7 @@
 import './App.css';
 import About from './components/About/about';
 import Codeforces from './components/codeforces/codeforces';
+import Footer from './components/Footer/footer';
 import Landing from './components/Landing/landing';
 import Navbar from './components/navbar';
 import Projects from './components/Projects/projects';
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Codeforces />
+      <Footer />             
     </div>
   );
 }
