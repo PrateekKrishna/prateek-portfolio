@@ -2,8 +2,7 @@ import React from "react";
 import "./landing.css"
 import Typewriter from "typewriter-effect";
 
-function Landing(){
-    var txt = [ "A Programmer...", "Full stack Developer..."]
+function Landing(){ 
     return(
         <>
         <div className="hero">

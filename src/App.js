@@ -1,6 +1,6 @@
 import './App.css';
 import About from './components/About/about';
-import Contact from './components/Contact/contact';
+import Codeforces from './components/codeforces/codeforces';
 import Landing from './components/Landing/landing';
 import Navbar from './components/navbar';
 import Projects from './components/Projects/projects';
@@ -16,7 +16,7 @@ function App() {
       <Timeline />
       <Skills />
       <Projects />
-      <Contact />
+      <Codeforces />
     </div>
   );
 }
