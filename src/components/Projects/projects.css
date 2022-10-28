@@ -26,19 +26,35 @@
 .proj-card{
     height: 50vh;
     width: 27vw;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .proj-img{
     height: 70%;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .hrule-proj{
     width: 30vw;
+}
+.proj-pics{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+}
+.proj-description{
+    margin-top: 10px;
+    color:#fff;
+}
+.proj-btn{
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px 5px 5px 5px;
 }
 @media screen and (max-width:769px){
     .projects{

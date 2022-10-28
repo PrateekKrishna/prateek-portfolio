@@ -7,7 +7,7 @@ function Landing(){
         <>
         <div className="hero">
             <h1 id = "dialogue">
-                Hello There I'm 
+                Hello there I'm 
                 <br />
                 <span className="blue">Prateek Krishna,</span>
                  <Typewriter
