@@ -61,9 +61,8 @@ function Codeforces(){
             <div className="cf-workarea">
                 <div style={{backgroundColor: rankMap.get(stats.rank)}} className="cf-stats">
                     <div className="name-link">
-                    <h2 className="cf-text"><span className="clr"> <a target="_blank" rel="noopener noreferrer" href={"https://codeforces.com/profile/"+stats.handle}>{stats.handle}</a></span></h2>
+                    <h2 className="cf-text"><a target="_blank" rel="noopener noreferrer" href={"https://codeforces.com/profile/"+stats.handle}>{stats.handle}</a></h2>
                     </div>
-                    
                     <h3 className="cf-text">Rank: <span className="clr">{stats.rank}</span> </h3>
                     <h3 className="cf-text">Max Rating: <span className="clr">{stats.maxRating}</span> </h3>
                     <h3 className="cf-text">Current Rating: <span className="clr">{stats.rating}</span> </h3>
@@ -72,7 +71,6 @@ function Codeforces(){
                     <img className="cf-logo"  alt="cf logo" src = {cflogo}></img>
                 </div>
             </div>
-
             <div className="search">
                 <form className="search">
                     <input
@@ -90,6 +88,7 @@ function Codeforces(){
                     >
                         Search
                     </button>
+                    <i onClick={(e) => handleClick(e)} aria-hidden="true" className="fa fa-search" id="phone"></i>
                 </form>
             </div>
         </div>
