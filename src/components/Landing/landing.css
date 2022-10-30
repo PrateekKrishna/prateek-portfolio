@@ -1,5 +1,5 @@
 .hero{
-    background-color: black;
+    background-color: #FFF7E9;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -7,12 +7,12 @@
 }
 
 .blue{
-    color: blue;
+    color: #1c1363;
 }
 
 #dialogue{
     padding-top: 25vh;
-    color: #fff;
+    color: #FF731D;
     justify-content: space-around;
     font-weight: 900;
 }

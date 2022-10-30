@@ -2,14 +2,14 @@
     padding-top: 10vh;
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: #FFF7E9;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .skills h1{
-    color: #fff;
+    /* color: #fff; */
     font-size: 15vh;
 }
 
@@ -67,7 +67,8 @@
 
 .skillname{
     text-align: left;
-    color: #fff;
+    /* color: #fff; */
+    font-weight: 800;
 }
 .progress-bar{
     width: 50%;
@@ -80,7 +81,7 @@
 .skill-level{
     text-align: right;
     font-weight: 900;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .hrule-skills{
@@ -101,13 +102,13 @@
         padding-bottom: 10vh;
         height: 100vh;
         width: 100vw;
-        background-color: black;
+        background-color: #FFF7E9;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .skills h1{
-        color: #fff;
+        /* color: #fff; */
         font-size: 10vh;
     }
     .hrule-skills{

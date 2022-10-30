@@ -1,6 +1,6 @@
 .about{
     padding: 10vh;
-    background-color: black;
+    background-color: #FFF7E9;
     height: 100vh;
     display: flex;
 }
@@ -20,7 +20,7 @@
 .hero-about h2{
     font-size: 15vh;
     text-align: left;
-    color: #fff;
+    /* color: #fff; */
 }
 .about-card{
     margin-top: 30px;
@@ -29,7 +29,7 @@
     font-size:x-large;
 }
 .about-card p{
-    color: #fff;
+    /* color: #fff; */
 }
 .hrule{
     width: 50vw;
@@ -38,7 +38,7 @@
 @media screen and (max-width:769px){
     .about{
         padding: 20px;
-        background-color: black;
+        background-color: #FFF7E9;
         height: 100vh;
         display: flex;
         justify-content: flex-start;
@@ -56,7 +56,7 @@
     .hero-about h2{
         padding-top: 2vh;
         font-size: xx-large;
-        color: #fff;
+        /* color: #fff; */
     }
     .hrule{
         width: 50vw;

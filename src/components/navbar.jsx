@@ -21,22 +21,22 @@ function Navbar(){
             <div className="menu-link">
                 <ul id="navbar" className= { menu ? "#navbar active" : "#navbar"}>
                     <li>
-                        <a className="active" href="!#">Home</a>
+                        <a className="active" href="/">Home</a>
                     </li>
                     <li>
-                        <a href="!#">About</a>
+                        <a href="/">About</a>
                     </li>
                     <li>
-                        <a href="!#">Education</a>
+                        <a href="/">Education</a>
                     </li>
                     <li>
-                        <a href="!#">Skills</a>
+                        <a href="/">Skills</a>
                     </li>
                     <li>
-                        <a href="!#">Projects</a>
+                        <a href="/">Projects</a>
                     </li>
                     <li>
-                        <a href="!#">Contact</a>
+                        <a href="/">Contact</a>
                     </li>
                 </ul>
             </div>

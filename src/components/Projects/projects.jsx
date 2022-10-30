@@ -13,21 +13,21 @@ function Projects(){
                 <div className="proj-card">
                     <div className="proj-img">
                         <img className="proj-pics" alt="flutter" src={flutter}></img>
-                        <p className="proj-description">my notes app made with flutter (under progresss)</p>
+                        <p className="proj-description">My Notes App Made With Flutter (under progresss)</p>
                         <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/my-notes-flutter"}} className="proj-btn">GitHub</button>
                     </div>
                 </div>
                 <div className="proj-card">
                     <div className="proj-img">
                         <img className="proj-pics" alt="portfolio" src={prateek}></img>
-                        <p className="proj-description">portfolio website made with react</p>
+                        <p className="proj-description">Portfolio Website Made With React</p>
                         <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/prateek-portfolio"}} className="proj-btn">GitHub</button>
                     </div>
                 </div>
                 <div className="proj-card">
                     <div className="proj-img">
                         <img className="proj-pics" alt="handpose" src={handpose}></img>
-                        <p className="proj-description">handpose detection model using openCV and mediapipe</p>
+                        <p className="proj-description">Handpose Detection Model using OpenCV & Mediapipe</p>
                         <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/Handpose-Detection"}} className="proj-btn">GitHub</button>
                     </div>
                 </div>

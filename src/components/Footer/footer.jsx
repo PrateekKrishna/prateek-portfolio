@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css"
-import github from "./githubSVG.svg"
-import instagram from "./instagramSVG.svg"
-import linkedin from "./linkedinSVG.svg"
+import github from "./gitHub.png"
+import instagram from "./instagram.png"
+import linkedin from "./linkedin.png"
 
 function Footer(){
     return(

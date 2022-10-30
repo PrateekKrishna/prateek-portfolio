@@ -7,7 +7,7 @@ function Landing(){
         <>
         <div className="hero">
             <h1 id = "dialogue">
-                Hello there I'm 
+                Hello there, I'm 
                 <br />
                 <span className="blue">Prateek Krishna,</span>
                  <Typewriter
@@ -18,7 +18,7 @@ function Landing(){
                         .typeString("Web Developer ...")
                         .pauseFor(1200)
                         .deleteAll()
-                        .typeString("second year CSE undergrad at")
+                        .typeString("Second Year CSE Undergrad at")
                         .start();
                     }}
                  />

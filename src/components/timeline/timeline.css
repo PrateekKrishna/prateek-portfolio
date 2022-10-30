@@ -1,5 +1,5 @@
 .timeline{
-    background-color: black;
+    background-color: #FFF7E9;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 .title {
     padding-left: 10vw;
     font-size: 15vh;
-    color: #fff;
+    /* color: #fff; */
     text-align: left;
     font-family: "Bebas Neue", sans-serif;
   }
@@ -38,7 +38,7 @@ h3 {
         padding-top: 5vh;
         padding-left: 10vw;
         font-size: 5vh;
-        color: #fff;
+        /* color: #fff; */
         text-align: left;
         font-family: "Bebas Neue", sans-serif;
       }
