@@ -16,27 +16,27 @@ function Navbar(){
  return(
         <nav className = "main-nav">
             <div className="logo">
-                <h2> <a href="!#" onClick={refresh}> <img alt="PK logo" src = {logo} height="30px" width="30px" /></a></h2>
+                <h2> <a href="/" onClick={refresh}> <img alt="PK logo" src = {logo} height="30px" width="30px" /></a></h2>
             </div>
             <div className="menu-link">
                 <ul id="navbar" className= { menu ? "#navbar active" : "#navbar"}>
                     <li>
-                        <a className="active" href="/">Home</a>
+                        <a className="active" href="#landingPage">Home</a>
                     </li>
                     <li>
-                        <a href="/">About</a>
+                        <a href="#aboutPage">About</a>
                     </li>
                     <li>
-                        <a href="/">Education</a>
+                        <a href="#EduPage">Education</a>
                     </li>
                     <li>
-                        <a href="/">Skills</a>
+                        <a href="#SkillsPage">Skills</a>
                     </li>
                     <li>
-                        <a href="/">Projects</a>
+                        <a href="#ProjectsPage">Projects</a>
                     </li>
                     <li>
-                        <a href="/">Contact</a>
+                        <a href="#footerPage">Contact</a>
                     </li>
                 </ul>
             </div>

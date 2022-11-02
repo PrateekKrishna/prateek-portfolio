@@ -55,7 +55,7 @@ function Codeforces(){
       }
 
     return (
-        <div className="codeforces">
+        <div id="CodeforcesPage" className="codeforces">
             <h1>Codeforces Stats</h1>
             <hr className="hrule-cf"/>
             <div className="cf-workarea">

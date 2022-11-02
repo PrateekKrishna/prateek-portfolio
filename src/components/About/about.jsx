@@ -4,7 +4,7 @@ import pic from "./hero.jpg";
 
 function About(){
     return(
-        <div className="about">
+        <div id="aboutPage" className="about">
             <img className="hero-pic" src={pic} alt="hero"/>
             <div className="hero-about">
                 <h2>About Me</h2>

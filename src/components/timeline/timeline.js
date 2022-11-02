@@ -13,7 +13,7 @@ function Timeline() {
   let schoolIconStyles = { background: "#f9c74f" };
 
   return (
-    <div className="timeline">
+    <div id="EduPage" className="timeline">
       <h1 className="title">Education</h1>
       <hr className="hrule-tl"/>
       <div className="mobile-tl"></div>

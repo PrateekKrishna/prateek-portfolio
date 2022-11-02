@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 function Landing(){ 
     return(
         <>
-        <div className="hero">
+        <div id="landingPage" className="hero">
             <h1 id = "dialogue">
                 Hello there, I'm 
                 <br />

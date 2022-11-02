@@ -6,7 +6,7 @@ import linkedin from "./linkedin.png"
 
 function Footer(){
     return(
-        <div className="footer">
+        <div id="footerPage" className="footer">
             <div className="ext-websites">
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/PrateekKrishna"><img className="web-logo" alt="github logo" src={github}></img></a>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/prateekkrishna/"><img className="web-logo" alt="linkedin logo" src={linkedin}></img></a>

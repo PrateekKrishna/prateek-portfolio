@@ -6,7 +6,7 @@ import handpose from "./hand_crops.png"
 
 function Projects(){
     return(
-        <div className="projects">
+        <div id="ProjectsPage" className="projects">
             <h1>Projects</h1>
             <hr className="hrule-proj"/>
             <div className="project-space">
