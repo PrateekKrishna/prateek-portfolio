@@ -2,7 +2,7 @@
     padding-top: 10vh;
     height: 100vh;
     width: 100%;
-    background-color: #FFF7E9;
+    background-color: #AA96DA;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,8 @@
 .skills h1{
     /* color: #fff; */
     font-size: 4vw;
+    align-self:flex-start;
+    margin-left: 10vw;
 }
 
 .all-six{
@@ -90,7 +92,9 @@
 }
 
 .hrule-skills{
-    width: 12vw;
+    width: 25vw;
+    align-self:flex-start;
+    margin-left: 10vw;
 }
 
 @media screen and (max-width:769px){

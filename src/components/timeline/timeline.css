@@ -1,27 +1,25 @@
 .timeline{
-    background-color: #FEFDCA;
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
+  padding-top: 10vh;
+  height: 100vh;
+  width: 100%;
+  background-color: #FFCEF3;
+  display: flex;
+  flex-direction: column;
 }
 
 .vertical-timeline{
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
   
 .title {
-    padding-left: 10vw;
-    font-size: 13vh;
-    text-align: left;
-    font-family: "Bebas Neue", sans-serif;
-    margin-top: 50px;
+  font-size: 4vw;
+  align-self:flex-start;
+  margin-left: 10vw;
   }
 .hrule-tl{
-    width: 45vw;
-    margin-left: 10vw;
-    margin-bottom: 10px;
+  width: 25vw;
+  align-self:flex-start;
+  margin-left: 10vw;
 }
 
 h3 {

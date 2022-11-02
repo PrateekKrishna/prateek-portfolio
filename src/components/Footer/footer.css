@@ -17,12 +17,15 @@
     align-self: center;
 }
 .web-logo{
-    height: 60%;
+    height: 50%;
     /* background-color: aliceblue; */
     /* border-radius: 100%; */
     border: #42485a;
+    transition: 0.3s;
 }
-
+.web-logo:hover{
+    transform: scale(1.2);
+}
 .copyright-txt{
     font-weight: 700;
 }

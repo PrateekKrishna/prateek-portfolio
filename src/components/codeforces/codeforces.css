@@ -8,7 +8,9 @@
 }
 .codeforces h1{
     /* color: #fff; */
-    font-size: 10vh;
+    font-size: 4vw;
+    align-self:flex-start;
+    margin-left: 10vw;
 }
 
 .cf-workarea{
@@ -31,6 +33,7 @@
 }
 .cf-stats:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.01);
 }
 .cf-image{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -43,6 +46,7 @@
 }
 .cf-image:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.01);
 }
 .cf-logo{
     padding: 10px;
@@ -108,8 +112,9 @@
 }
 
 .hrule-cf{
-    align-self: center;
     width: 45vw;
+    align-self:flex-start;
+    margin-left: 10vw;
 }
 #phone{
     display: none;

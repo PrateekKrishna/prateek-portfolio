@@ -1,5 +1,5 @@
 .hero{
-    background-color: #BBE1FA;
+    background-color: #F999B7;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -13,7 +13,7 @@
 
 #dialogue{
     padding-top: 25vh;
-    color: #FF731D;
+    color: #2A0944;
     justify-content: space-around;
     font-weight: 900;
 }
