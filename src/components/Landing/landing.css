@@ -1,5 +1,5 @@
 .hero{
-    background-color: #FFF7E9;
+    background-color: #BBE1FA;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -8,7 +8,7 @@
 }
 
 .blue{
-    color: #1c1363;
+    color: #393E46;
 }
 
 #dialogue{

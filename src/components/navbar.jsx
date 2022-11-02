@@ -21,7 +21,7 @@ function Navbar(){
             <div className="menu-link">
                 <ul id="navbar" className= { menu ? "#navbar active" : "#navbar"}>
                     <li>
-                        <a className="active" href="#landingPage">Home</a>
+                        <a href="#landingPage">Home</a>
                     </li>
                     <li>
                         <a href="#aboutPage">About</a>
@@ -34,6 +34,9 @@ function Navbar(){
                     </li>
                     <li>
                         <a href="#ProjectsPage">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#CodeforcesPage">Codeforces</a>
                     </li>
                     <li>
                         <a href="#footerPage">Contact</a>

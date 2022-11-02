@@ -10,7 +10,7 @@
 
 .skills h1{
     /* color: #fff; */
-    font-size: 15vh;
+    font-size: 4vw;
 }
 
 .all-six{
@@ -71,12 +71,17 @@
     font-weight: 800;
 }
 .progress-bar{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     width: 50%;
     height: 95%;
     background-color: red;
     border-radius: 8px 8px 8px 8px;
     border: 2px solid black;
 }
+.progress-bar:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 
 .skill-level{
     text-align: right;
@@ -85,7 +90,7 @@
 }
 
 .hrule-skills{
-    width: 40vw;
+    width: 12vw;
 }
 
 @media screen and (max-width:769px){
@@ -109,9 +114,9 @@
     }
     .skills h1{
         /* color: #fff; */
-        font-size: 10vh;
+        font-size: 50px;
     }
     .hrule-skills{
-        width: 70vw;
+        width: 40vw;
     }
 }
