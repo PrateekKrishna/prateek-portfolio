@@ -1,6 +1,6 @@
 .projects{
     padding-top: 10vh;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #DDFFBC;
     display: flex;
@@ -10,7 +10,7 @@
 
 .projects h1{
     /* color: #fff; */
-    font-size: 4vw;
+    font-size: 5vw;
     align-self:flex-start;
     margin-left: 10vw;
 }
@@ -77,12 +77,14 @@
 .proj-btn:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.phone-btn{
+    display: none;
+}
 @media screen and (max-width:769px){
     .projects{
-        padding-top: 2vh;
-        height: 100vh;
-        width: 100vw;
-        background-color: #FFF7E9;
+        min-height: 100vh;
+        width: 100%;
+        background-color: #DDFFBC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -103,16 +105,42 @@
         display: flex;
         flex-direction: column;
     }
-    .hrule-proj{
-        width: 80vw;
-    }
-    .projects h1{
-        /* color: #fff; */
-        font-size: 8vh;
-    }
+    
     .proj-img{
         height: 60%;
         width: 100%;
         /* background-color: aquamarine; */
+    }
+    .proj-pics{
+        /* height: 100%;
+        width: 100%; */
+        border-radius: 15px 15px 15px 15px;
+    }
+    .proj-btn{
+        display: none;
+    }
+    .phone-btn{
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 10px;
+    height: 25px;
+    width: 55px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    background-color: #FF731D;
+    font-weight: 500;
+    border: 0px;
+    }
+    .projects h1{
+        /* color: #fff; */
+        font-size: 11vw;
+        align-self:flex-start;
+        margin-left: 10vw;
+    }
+    .hrule-proj{
+        width: 65vw;
+        align-self: flex-start;
+        margin-left: 10vw;
     }
 }

@@ -21,25 +21,25 @@ function Navbar(){
             <div className="menu-link">
                 <ul id="navbar" className= { menu ? "#navbar active" : "#navbar"}>
                     <li>
-                        <a href="#landingPage">Home</a>
+                        <a onClick={handleClick} href="#landingPage">Home</a>
                     </li>
                     <li>
-                        <a href="#aboutPage">About</a>
+                        <a onClick={handleClick}  href="#aboutPage">About</a>
                     </li>
                     <li>
-                        <a href="#EduPage">Education</a>
+                        <a onClick={handleClick} href="#EduPage">Education</a>
                     </li>
                     <li>
-                        <a href="#SkillsPage">Skills</a>
+                        <a onClick={handleClick} href="#SkillsPage">Skills</a>
                     </li>
                     <li>
-                        <a href="#ProjectsPage">Projects</a>
+                        <a onClick={handleClick} href="#ProjectsPage">Projects</a>
                     </li>
                     <li>
-                        <a href="#CodeforcesPage">Codeforces</a>
+                        <a onClick={handleClick} href="#CodeforcesPage">Codeforces</a>
                     </li>
                     <li>
-                        <a href="#footerPage">Contact</a>
+                        <a onClick={handleClick} href="#footerPage">Contact</a>
                     </li>
                 </ul>
             </div>

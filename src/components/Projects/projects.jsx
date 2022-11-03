@@ -13,10 +13,11 @@ function Projects(){
                 <div className="proj-card">
                     <div className="proj-img">
                         <img className="proj-pics" alt="flutter" src={flutter}></img>
-                        <p className="proj-description">My Notes App Made With Flutter (under progresss)</p>
+                        <p className="proj-description">My Notes App</p>
                         <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/my-notes-flutter"}} className="proj-btn">GitHub</button>
                     </div>
                 </div>
+                <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/my-notes-flutter"}} className="phone-btn">GitHub</button>
                 <div className="proj-card">
                     <div className="proj-img">
                         <img className="proj-pics" alt="portfolio" src={prateek}></img>
@@ -24,6 +25,7 @@ function Projects(){
                         <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/prateek-portfolio"}} className="proj-btn">GitHub</button>
                     </div>
                 </div>
+                <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/prateek-portfolio"}} className="phone-btn">GitHub</button>
                 <div className="proj-card">
                     <div className="proj-img">
                         <img className="proj-pics" alt="handpose" src={handpose}></img>
@@ -31,6 +33,7 @@ function Projects(){
                         <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/Handpose-Detection"}} className="proj-btn">GitHub</button>
                     </div>
                 </div>
+                <button onClick={(e)=>{e.preventDefault(); window.location.href = "https://github.com/PrateekKrishna/Handpose-Detection"}} className="phone-btn">GitHub</button>
             </div>
         </div>
     );
