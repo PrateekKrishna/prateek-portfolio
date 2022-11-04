@@ -30,7 +30,7 @@ function Navbar(){
                         <a onClick={handleClick} href="#EduPage">Education</a>
                     </li>
                     <li>
-                        <a onClick={handleClick} href="#SkillsPage">Skills</a>
+                        <a onClick={handleClick} href="#newSkillsPage">Skills</a>
                     </li>
                     <li>
                         <a onClick={handleClick} href="#ProjectsPage">Projects</a>
