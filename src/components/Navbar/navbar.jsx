@@ -3,7 +3,7 @@ import "./navbar.css";
 import logo from "../../assects/logo.png"
 import Switch from "react-switch";
 import { useEffect } from "react";
-import "../Landing/landing.css"
+import {FaMoon, FaSun} from 'react-icons/fa'
 
 
 function Navbar(props){
@@ -128,7 +128,7 @@ function Navbar(props){
                         <a onClick={handleClick} href="#footerPage">Contact</a>
                     </li>
                     <li>
-                        <Switch onChange={handleToggle} checked = {toggle} />
+                        <Switch checkedHandleIcon={<FaSun style={{marginLeft: "5px", marginTop: "4px"}}/>} uncheckedHandleIcon={<FaMoon style={{marginLeft: "4px", marginTop: "4px"}}/>} uncheckedIcon={false} checkedIcon={false} onChange={handleToggle} checked = {toggle} />
                     </li>
                 </ul>
             </div>
