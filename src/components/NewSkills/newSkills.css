@@ -52,7 +52,7 @@
         width: 90vw;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 1rem;
-        column-gap: 2rem;
+        column-gap: 0.6rem;
         align-content: space-evenly;
         justify-items: center;
         grid-column: 2/4;
