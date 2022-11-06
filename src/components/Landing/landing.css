@@ -13,11 +13,12 @@
 }
 
 .dialogue{
-    padding-top: 25vh;
+    padding-top: 15vh;
     color: #2A0944;
     justify-content: space-around;
     font-weight: 900;
 }
+
 @media screen and (max-width:769px){
     .blue{
         font-size: 10vw;
@@ -30,7 +31,6 @@
 }
 .blue-dark{
     color: #EEEEEE;
-    font-size: 80px;
 }
 .dialogue-dark{
     padding-top: 25vh;

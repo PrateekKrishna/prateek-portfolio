@@ -60,8 +60,8 @@ function Navbar(props){
         }else{
             //Landing Page
             document.getElementById("landingPage").className="hero hero-dark";
-            document.getElementById("blue").className="blue-dark";
-            document.getElementById("bit-mesra").className="blue-dark";
+            document.getElementById("blue").className="blue blue-dark";
+            document.getElementById("bit-mesra").className="blue blue-dark";
             document.getElementById("dialogue").className="dialogue-dark";
 
             //AboutPage
