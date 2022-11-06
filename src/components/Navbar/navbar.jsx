@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./navbar.css";
-import logo from "../assects/logo.png"
+import logo from "../../assects/logo.png"
+import Switch from "react-switch";
 
 function Navbar(){
 
@@ -11,6 +12,12 @@ function Navbar(){
     }
     function refresh(){
         window.location.reload(true);
+    }
+
+    var [toggle, setToggle] = useState(false)
+
+    function handleToggle(){
+        setToggle(!toggle);
     }
     
  return(
@@ -40,6 +47,9 @@ function Navbar(){
                     </li>
                     <li>
                         <a onClick={handleClick} href="#footerPage">Contact</a>
+                    </li>
+                    <li>
+                        <Switch onChange={handleToggle} checked = {toggle} />
                     </li>
                 </ul>
             </div>
