@@ -5,7 +5,7 @@ function NewSkills(){
     
     return (
         <div id="newSkillsPage" className="new-skills">
-          <h1>Skills</h1>
+          <h1 id="skills-heading" className="skills-heading">Skills</h1>
           <hr className="hrule-newSkills" />
           <div className="mySkills">
             <img alt="skill-logo" className="skill-logo" src="/image/dart.png"></img>

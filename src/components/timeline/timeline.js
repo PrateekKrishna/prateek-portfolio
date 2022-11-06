@@ -14,14 +14,14 @@ function Timeline() {
 
   return (
     <div id="EduPage" className="timeline">
-      <h1 className="title">Education</h1>
+      <h1 id="title" className="title">Education</h1>
       <hr className="hrule-tl"/>
       <div className="mobile-tl"></div>
+
       <VerticalTimeline 
         lineColor="blue"
       >
         {timelineElements.map((element) => {
-
           return (
             <VerticalTimelineElement
               key={element.key}
@@ -29,7 +29,7 @@ function Timeline() {
               iconStyle={schoolIconStyles}
               icon={<SchoolIcon />}
               className = {"box"}
-              contentStyle={{ background: 'goldenRod', color: 'black' }}
+              contentStyle={{ background: '#FDFDBD', color: 'black' }}
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}

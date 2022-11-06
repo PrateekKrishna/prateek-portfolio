@@ -5,11 +5,11 @@ import Typewriter from "typewriter-effect";
 function Landing(){ 
     return(
         <>
-        <div id="landingPage" className="hero">
-            <h1 id = "dialogue">
+        <div id="landingPage" className="hero ">
+            <h1 id = "dialogue" className="dialogue">
                 Hello there, I'm 
                 <br />
-                <span className="blue">Prateek Krishna,</span>
+                <span id="blue" className="blue">Prateek Krishna,</span>
                  <Typewriter
                     onInit={(typewriter) => {
                         typewriter.typeString("A Programmer...")
@@ -22,7 +22,7 @@ function Landing(){
                         .start();
                     }}
                  />
-                 <span className="blue">BIT Mesra</span>
+                 <span id="bit-mesra" className="blue">BIT Mesra</span>
             </h1>
         </div>
         

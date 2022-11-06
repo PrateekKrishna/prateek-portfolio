@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
 }
-.codeforces h1{
+ .cf-title{
     /* color: #fff; */
     font-size: 4vw;
     align-self:flex-start;
@@ -72,7 +72,7 @@
     align-items: center;
     text-align: center;
 }
-#search-btn{
+.search-btn{
     height: 80%;
     width: 10%;
     align-self: center;
@@ -189,4 +189,20 @@
         align-items: center;
         text-align: center;
     }
+}
+
+/*codeforces dark*/
+.codeforces-dark{
+    background-color: #222526;
+}
+.cf-title-dark{
+    color: #EDEDED;
+}
+.search-btn-dark{
+    background-color: #ba4700;
+    color: #EDEDED;
+    font-weight: 500;
+}
+.cf-image-dark{
+    background-color: #402900;
 }

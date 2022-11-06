@@ -1,5 +1,4 @@
 .about{
-
     padding: 10vh;
     background-color: #EDEDED;
     min-height: 100vh;
@@ -26,7 +25,7 @@
     margin-top: 15vh;
     height: fit-content;
 }
-.hero-about h2{
+.about-me-title{
     font-size: 5vW;
     text-align: left;
     /* color: #fff; */
@@ -78,4 +77,18 @@
         font-size: large;
         display: flex;
     }
+}
+
+/*dark mode*/
+
+.about-dark{
+    background-color: #222526;
+}
+.about-me-dark{
+    font-size: 5vW;
+    text-align: left;
+    color: #e8e6e2;
+}
+.about-content-dark{
+    color: #e8e6e2;
 }

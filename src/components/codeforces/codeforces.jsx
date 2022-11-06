@@ -56,7 +56,7 @@ function Codeforces(){
 
     return (
         <div id="CodeforcesPage" className="codeforces">
-            <h1>Codeforces Stats</h1>
+            <h1 id="cf-title" className="cf-title">Codeforces Stats</h1>
             <hr className="hrule-cf"/>
             <div className="cf-workarea">
                 <div style={{backgroundColor: rankMap.get(stats.rank)}} className="cf-stats">
@@ -67,7 +67,7 @@ function Codeforces(){
                     <h3 className="cf-text">Max Rating: <span className="clr">{stats.maxRating}</span> </h3>
                     <h3 className="cf-text">Current Rating: <span className="clr">{stats.rating}</span> </h3>
                 </div>
-                <div className="cf-image">
+                <div id="cf-image" className="cf-image">
                     <img className="cf-logo"  alt="cf logo" src = {cflogo}></img>
                 </div>
             </div>
@@ -82,7 +82,8 @@ function Codeforces(){
                         onChange = {(e) => handleChange(e)}
                     />
                     <button
-                        id="search-btn" 
+                        id="search-btn"
+                        className="search-btn"
                         type="submit"
                         onClick={(e) => handleClick(e)}
                     >

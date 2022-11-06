@@ -11,9 +11,23 @@
     color: #393E46;
 }
 
-#dialogue{
+.dialogue{
     padding-top: 25vh;
     color: #2A0944;
+    justify-content: space-around;
+    font-weight: 900;
+}
+
+/*Dark mode here*/
+.hero-dark{
+    background-color: #413F42;
+}
+.blue-dark{
+    color: #EEEEEE;
+}
+.dialogue-dark{
+    padding-top: 25vh;
+    color: #FDFDBD;
     justify-content: space-around;
     font-weight: 900;
 }

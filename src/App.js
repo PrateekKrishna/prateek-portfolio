@@ -6,17 +6,19 @@ import Landing from './components/Landing/landing';
 import Projects from './components/Projects/projects';
 import Timeline from './components/timeline/timeline';
 import ScrollToTop from "react-scroll-to-top";
-import React from 'react';
+import React, { useState } from 'react';
 import NewSkills from './components/NewSkills/newSkills';
 import Navbar from './components/Navbar/navbar';
 
 
 function App() {
 
+  
+
   return (
     <div className="App">
       <ScrollToTop color='grey'/>
-      <Navbar />
+      <Navbar/>
       <Landing />
       <About />
       <Timeline />

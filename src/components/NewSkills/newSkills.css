@@ -9,7 +9,7 @@
     padding: 0px;
 }
 
-.new-skills h1{
+.skills-heading{
     font-size: 6vw;
     align-self: flex-start;
     margin-left: 10vw;
@@ -50,19 +50,17 @@
         display: grid;
         height: 75vh;
         width: 90vw;
-        /* background-color: pink; */
         grid-template-columns: repeat(3, 1fr);
         row-gap: 1rem;
         column-gap: 2rem;
-        /* column-gap: 1rem; */
         align-content: space-evenly;
         justify-items: center;
         grid-column: 2/4;
         margin-right: 0px;
     }
     .skill-logo{
-        height: 80px;
-        width: 80px;
+        height: 72px;
+        width: 72px;
     }
     .new-skills h1{
         font-size: 5vh;
@@ -75,4 +73,24 @@
         align-self: flex-start;
         margin-left: 10vw;
     }
+}
+
+/*dark mode*/
+.new-skills-dark{
+    background-color: #222526;
+    padding-top: 10vh;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.skills-heading-dark{
+    font-size: 6vw;
+    align-self: flex-start;
+    margin-left: 10vw;
+    margin-top: 4.5rem;
+    color: #EDEDED;
 }
