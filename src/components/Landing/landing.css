@@ -9,7 +9,7 @@
 
 .blue{
     color: #816797;
-    font-size: 80px;
+    /* font-size: 80px; */
 }
 
 .dialogue{
@@ -19,11 +19,11 @@
     font-weight: 900;
 }
 
-@media screen and (max-width:769px){
+/* @media screen and (max-width:769px){
     .blue{
         font-size: 10vw;
     }
-}
+} */
 
 /*Dark mode here*/
 .hero-dark{
@@ -33,7 +33,7 @@
     color: #EEEEEE;
 }
 .dialogue-dark{
-    padding-top: 25vh;
+    padding-top: 15vh;
     color: #FDFDBD;
     justify-content: space-around;
     font-weight: 900;
